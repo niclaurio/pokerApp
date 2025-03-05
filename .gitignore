@@ -1,0 +1,6 @@
+.idea/
+.venv/
+requirements.txt
+requirements_dev.txt
+requirements_test.txt
+.logs/
