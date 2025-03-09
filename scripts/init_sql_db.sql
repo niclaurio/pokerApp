@@ -9,6 +9,11 @@ CREATE TABLE levels (
 );
 
 
+CREATE TABLE app_configs(
+    key text not null unique ,
+    value text not null
+)
+
 CREATE OR REPLACE FUNCTION check_start_from_end_to()
 RETURNS TRIGGER AS $$
 BEGIN
